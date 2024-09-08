@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+   
+    
+}
+header{
+    color:floralwhite;
+    background-position: center;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+header nav ul li{
+    display: inline;
+    margin:5px 15px;
+   
+
+}
+header nav ul li a{
+    color:rgb(77, 68, 68);
+    text-decoration: none;
+    font-family: Arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+
+}
+header nav ul li a:hover{  color: rgb(245, 61, 15);
+}
+#intro h1{
+    color: chartreuse;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    padding:0 50px;
+    margin-bottom: 0;
+    }
+
+    #intro h2{
+        color:rgb(23, 201, 82);
+        font-size: 40px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #intro p{
+        color:rgb(61, 54, 54);
+        letter-spacing: 0.5px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        margin:30px;
+
+    }
+    #intro li{
+        color: rgb(39, 36, 36);
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        font-family: Arial;
+        margin: 40px;
+
+    }
+    @media(max-width:600px)
+{.cointainer{grid-template-columns: 1fr; 
+}
+.item{
+  font-size: 1rem;
+}
+}
+@media(min-width:601px) and(max-width:992px){
+ .cointainer {grid-template-columns: repeat(2,1fr);
+  }
+}
